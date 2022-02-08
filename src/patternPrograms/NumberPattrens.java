@@ -142,6 +142,53 @@ public class NumberPattrens {
 	      //         *      
 
 
+	      
+	      
+	      
+	      
+ System.out.println("Pattern_6");	
+	      
+	      //int n = 5;
+	      for(int i=1; i<=n; i++) {
+				
+				for(int j=n; j>=1; j--) {
+					if(i>=j) {
+						System.out.print(i+" ");
+					}else {
+						System.out.print("  ");
+					}
+					
+				}
+				
+				System.out.println();
+			}
+	      
+	//OutPut : 
+	     //         *
+	     //       * *
+	     //     * * * 
+	     //   * * * *
+	     // * * * * *
+	      
+	      
+	      System.out.println("Pattern_7");	
+	      for(int i=5; i>=1; i--) {
+				
+				for(int j=5; j>=1; j--) {
+					if(i>=j) {
+						System.out.print(i+" ");
+					}else {
+						System.out.print("  ");
+					}
+					
+				}
+				
+				System.out.println();
+	      }
+	      
+	      
+	      
+	      
 	}
 
 }

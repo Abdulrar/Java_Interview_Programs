@@ -10,7 +10,7 @@ public class B2_Program_to_remove_the_duplicate_characters_in_a_string {
         //String info = "javaTpoint is the best learning website";  
         String info = "j a v a T p o i n t  is t he b e s t l e a rn  i n g  w e b s i t e"; 
         //Converting string to character array  
-        char str[] = info.toCharArray();  
+        char str[] = info.toCharArray();  //----->char latter = info.charAt(1);  
         //Calculating length of the character array  
         int len = str.length;   
         //Calling removeDuplicates() method to remove duplicate characters  

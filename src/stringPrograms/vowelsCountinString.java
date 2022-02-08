@@ -21,7 +21,7 @@ public class vowelsCountinString {
 							case 'o':
 								case 'u':
 
-				count ++;
+				count++;
 
 				//break;
 				}

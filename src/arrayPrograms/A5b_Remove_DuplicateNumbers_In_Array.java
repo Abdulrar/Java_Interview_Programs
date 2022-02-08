@@ -1,6 +1,6 @@
 package arrayPrograms;
 
-public class A5_DuplicateNumbers_In_Array {
+public class A5b_Remove_DuplicateNumbers_In_Array {
 
 	public static void main(String[] args) {
 		
@@ -10,10 +10,23 @@ public class A5_DuplicateNumbers_In_Array {
 	        //Searches for duplicate element  
 	        for(int i = 0; i < arr.length; i++) {  
 	            for(int j = i + 1; j < arr.length; j++) {  
-	                if(arr[i] == arr[j])  
-	                    System.out.println(arr[j]);  
+	                if(arr[i] == arr[j])  {
+	                	//System.out.println(arr[j]); 
+	                	
+	                	arr[j] = 0;
+	                	
+	                }
+	                     
 	            }  
 	        }  
+	        
+	        for(int data: arr) {
+	        	
+	        	if(data != 0) {
+	        		System.out.println(data);
+	        	}
+	        	
+	        }
 
 	}
 

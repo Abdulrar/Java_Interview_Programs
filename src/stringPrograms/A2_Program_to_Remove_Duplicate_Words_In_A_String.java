@@ -19,6 +19,7 @@ public class A2_Program_to_Remove_Duplicate_Words_In_A_String {
 				
 				// Split the given sentence to get each word as String array
 				String allWords[] = string.split(" ");
+				
 				// Use for loop to remove duplicate words
 				for(int i=0; i<allWords.length; i++) {
 					for(int j=i+1; j<allWords.length; j++) {

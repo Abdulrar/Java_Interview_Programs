@@ -22,6 +22,7 @@ public class A4_find_duplicate_words_in_Array {
 				}else {
 					DS.add(s2);
 				}
+				 
 			}
 			
 			System.out.println(DS); 

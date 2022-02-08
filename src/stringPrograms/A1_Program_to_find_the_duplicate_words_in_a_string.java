@@ -4,10 +4,10 @@ public class A1_Program_to_find_the_duplicate_words_in_a_string {
 
 	public static void main(String[] args) {
 		
-		String string = "Big black bug bit bit bit a dog on his nose black";
+		String string = "Big black bug bit bit bit a dog on his nose black black a";
 		//String string = "B b b it a it h h e";
 		//String string = "go to gym go";   
-        int count;  
+        //int count;  
           
         //Converts the string into lowercase  
         string = string.toLowerCase();  
@@ -17,7 +17,7 @@ public class A1_Program_to_find_the_duplicate_words_in_a_string {
           
         System.out.println("Duplicate words in a given string : ");   
         for(int i = 0; i < words.length; i++) {  
-            count = 1;  
+            int count = 1;  
             for(int j = i+1; j < words.length; j++) {  
                 if(words[i].equals(words[j])) {  
                     count++;  

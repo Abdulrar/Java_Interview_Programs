@@ -2,7 +2,7 @@ package numberPrograms;
 
 import java.util.Scanner;
 
-public class Given_Number_is_PrimeNumber_OR_Not {
+public class A1_Given_Number_is_PrimeNumber_OR_Not {
 
 	public static void main(String[] args) {
 		
@@ -22,11 +22,7 @@ public class Given_Number_is_PrimeNumber_OR_Not {
 		
 		Scanner sc = new Scanner(System.in); // To take the input from command line 
 		Integer num = sc.nextInt(); //Read the num from console 
-		
-		
-		
-		
-		
+			
 		for (int i = 2; i < num; i++) {
 			
 			if(num % i == 0) {
