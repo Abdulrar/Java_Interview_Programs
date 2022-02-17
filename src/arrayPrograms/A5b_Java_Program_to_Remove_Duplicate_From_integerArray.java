@@ -1,7 +1,7 @@
 package arrayPrograms;
 import java.util.*;
 
-public class A5b_Java_Program_to_Remove_Duplicate_From_Array {
+public class A5b_Java_Program_to_Remove_Duplicate_From_integerArray {
 
 	public static void main(String[] args) {
 		

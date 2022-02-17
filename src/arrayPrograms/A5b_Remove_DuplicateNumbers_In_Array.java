@@ -23,7 +23,7 @@ public class A5b_Remove_DuplicateNumbers_In_Array {
 	        for(int data: arr) {
 	        	
 	        	if(data != 0) {
-	        		System.out.println(data);
+	        		System.out.print(data+ " " );
 	        	}
 	        	
 	        }
