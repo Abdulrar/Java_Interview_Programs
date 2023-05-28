@@ -12,7 +12,7 @@ public class A1_SortAn_Integer_ArrayUsingTheSortMethod {
 		
 		//defining an array of integer type   
 		int [] array = new int [] {90, 23, 5, 109, 12, 22, 67, 34};  
-		//invoking sort() method of the Arrays class  
+		//invoking sort() method of the Arrays classsssssssss 
 		
 		Arrays.sort(array);
 	
